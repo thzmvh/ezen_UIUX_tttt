@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <!-- p.28 -->
+        <!-- 무료 사진/음악/영상 : https://pixabay.com-->
+    <img src="이미지.jpg" width="500">
+    <audio src="오디오.mp3" controls autoplay></audio> <!-- controls 조작 도구 출력-->
+    <audio>
+        <source src=""/> <!-- 오디오 여러개 삽입 원할 시 source 사용-->
+        <source src=""/>
+        <source src=""/>
+        <source src=""/>
+    </audio>
+    <video src="영상.mp4" width="500" height="200" muted controls autoplay></vedio> 
+    <!-- autoplay 자동 실행 > 브라우저 정책 상 금지, 소리가 없는 영상만 자동재상 가능 단, muted 사용하면 가능-->
+
+    <br>
+    <br>
+    
+    <!--외부 멀티 미디어-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x6i3_LfeTjY?si=7kAUZV72C_L3zCwx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <!-- 2.지도 퍼가기 : 구글 지도-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.3901745745306!2d126.85119457606042!3d37.30958447210632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b6f26eca4e801%3A0xcc760a7a473e93bf!2z7ZWc64yA7JWe7Jet!5e0!3m2!1sko!2skr!4v1707221306619!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</body>
+</html>
